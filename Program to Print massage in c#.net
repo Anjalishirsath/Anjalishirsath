@@ -1,0 +1,32 @@
+Assignment 1 Write a program to print “Teach One, Each One, Tree One” given number of times
+=>
+// Print How many times word
+
+        class Program
+        {
+
+            static void Main(string[] args)
+            {
+                Console.WriteLine("Teach One, Each One, Tree One");
+                Console.WriteLine("How many times print");
+                int no=int.Parse(Console.ReadLine());
+                for (int i = 1; i <= no; i++)
+                {
+                    Console.WriteLine("Teach One, Each One, Tree One");
+                }
+                    Console.ReadLine();
+            }
+        }
+
+Output:-
+Teach One, Each One, Tree One
+How many times print
+3
+Teach One, Each One, Tree One
+Teach One, Each One, Tree One
+Teach One, Each One, Tree One
+
+
+
+
+
